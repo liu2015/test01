@@ -7,7 +7,7 @@ public class test01 {
 		
 	
 	System.out.println("git中文支持");
-	
+	System.out.println("项目测试");
 	
 	}
 }
