@@ -50,10 +50,7 @@ public class bao {
 	{
 		for (int i=0;i<wanneng.length;i++){
 			ps.setObject(i+1, wanneng[i]);
-			
-			
-			
-			
+
 		}
 		
 	}
@@ -67,8 +64,34 @@ public class bao {
 	}
 		
 	}
-
-
+	
+	//查询语句 返回个结果集合
+	public  ResultSet getresultset(String sql,Object[] wanneng){
+		conn=this.getconnection();
+		try {
+			ps=conn.prepareStatement(sql);
+			if(wanneng!=null)
+			{
+				for(int i=0;i<wanneng.length;i++){
+					ps.setObject(i+1, wanneng[i]);
+				}
+				
+			}
+			rs=ps.executeQuery();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			
+		}
+		
+		
+		return rs;
+		
+		
+	}
+	
+	
 
 	private void clone(Connection conn2, PreparedStatement ps2, ResultSet rs2) {
 		// TODO Auto-generated method stub
@@ -96,8 +119,5 @@ public class bao {
 		
 		
 	}
-	
-	
-	
 
 }
