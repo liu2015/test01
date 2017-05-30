@@ -11,7 +11,11 @@ void insserttb_memo(setgetdao tb_memo);
 void deletetb_memo(setgetdao tb_memo);
 void updatetb_memo(setgetdao tb_memo);	
 	
+//查询结果 放置list 
 List<setgetdao> selecttb_memo();
+
+// void login_tb_memo(setgetdao tb_memo);
+
 	
 	
 	
