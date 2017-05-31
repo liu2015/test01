@@ -93,7 +93,7 @@ public class bao {
 	
 	
 
-	private void clone(Connection conn2, PreparedStatement ps2, ResultSet rs2) {
+	public  void clone(Connection conn2, PreparedStatement ps2, ResultSet rs2) {
 		// TODO Auto-generated method stub
 		try {
 			if(rs!=null){

@@ -6,6 +6,7 @@ public class setgetdao {
 
 	private int id;
 	private String username;
+	private String title;
 	private String content;
 	private String memotype;
 	private Date memotime;
@@ -38,6 +39,12 @@ public class setgetdao {
 	}
 	public void setMemotime(Date memotime) {
 		this.memotime = memotime;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	
