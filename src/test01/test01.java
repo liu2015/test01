@@ -24,6 +24,7 @@ public class test01 {
 		setgetdao tb_memo = list.get(i);
 		System.out.println(tb_memo.getId()+ "\t"+tb_memo.getUsername()+ "\t"+tb_memo.getTitle()+ "\t"+tb_memo.getContent()+ "\t"+tb_memo.getMemotype()+ "\t"+tb_memo.getMemotime());
 		
+
 	}
 	
 	
