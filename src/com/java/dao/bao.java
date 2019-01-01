@@ -13,8 +13,8 @@ public class bao {
 
 	private String className = "com.mysql.jdbc.Driver";
 	private String url = "jdbc:mysql://localhost:3306/db_memomodule";
-	private String user = "root";
-	private String password = "liu1988226";
+	private String user = "liu";
+	private String password = "liu";
 	protected Connection conn = null;
 	protected PreparedStatement ps = null;
 	protected ResultSet rs = null;

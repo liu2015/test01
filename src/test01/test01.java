@@ -15,7 +15,7 @@ public class test01 {
 	
 	System.out.println("git中文支持");
 	System.out.println("项目测试");
-	
+	System.out.println("更改日期2019-01-01");
 	zhixing g=new zhixing();
 	List<setgetdao> list=g.selecttb_memo();
 	
